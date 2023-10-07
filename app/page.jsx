@@ -29,6 +29,7 @@ export default function Home() {
                 <h1 className="text-7xl text-white z-10 relative">
                   Open Mic Studios
                 </h1>
+                <p className="text-4xl text-white z-10 relative text-shadow">Putting You on Center Stage</p>
 
                 {/* New Buttons */}
                 <div className="mt-6 z-10 relative flex space-x-4">
