@@ -34,13 +34,13 @@ export default function Home() {
                 {/* New Buttons */}
                 <div className="mt-6 z-10 relative flex space-x-4">
                   <ScrollLink
-                    to="services"
+                    to="who"
                     spy={true}
                     smooth={true}
                     duration={500}
                   >
                     <button className="bg-slate-400 hover:bg-slate-900 text-white font-light py-2 px-4 mx-2 rounded">
-                      Services
+                      About Us
                     </button>
                   </ScrollLink>
                   <ScrollLink
