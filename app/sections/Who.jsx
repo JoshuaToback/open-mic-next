@@ -53,7 +53,7 @@ const Who = () => {
   return (
     <section className="py-16" id="who">
       <div className="container mx-auto">
-        <h2 className="text-5xl font-semibold mb-4">Who We Are</h2>
+        <h2 className="text-5xl font-light mb-4">Who We Are</h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           <div className="md:col-span-1 bg-white rounded-xl p-4">
             <Image
@@ -66,7 +66,7 @@ const Who = () => {
           </div>
           {/* Text */}
           <div className="md:col-span-3 bg-white rounded-xl p-4">
-            <p className="text-gray-700 font-light">
+            <p className="text-gray-700 text-2xl p-10 font-light">
               Open Mic Studios is a casting studio that focuses on putting your
               voice on center stage! We priortize curating the best casting
               roster on the planet, made up of voice actors of every skill
@@ -115,7 +115,7 @@ const Who = () => {
               <h3 className="text-3xl font-semibold">Classes and Workshops</h3>
               <Image src={theater} alt="theatre" width={100} height={100} />
               <p className="text-2xl font-light pt-5">
-                Within our server we host mixers, workshops, and 1 on 1 coaching
+                Within our server we host mixers, workshops, and One on One coaching
                 sessions with our staff to help our curated roster grow!
               </p>
             </div>

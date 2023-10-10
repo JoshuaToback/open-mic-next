@@ -39,7 +39,7 @@ const Nav = () => {
 
   const mobileMenuClasses = `sm:hidden ${
     isMobileMenuOpen ? "block" : "hidden"
-  } absolute top-16 right-0 bg-black w-48 p-4 shadow-md text-white`; 
+  } absolute z-10 top-16 right-0 bg-black w-48 p-4 shadow-md text-white`; 
 
   return (
     <nav className={navClasses} >
@@ -67,14 +67,14 @@ const Nav = () => {
 
             <Link
               className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-blue-600 text-white px-5 py-2 text-sm shadow-md hover:bg-blue-500 bg-blue-600 font-medium transition"
-              href="/contact"
+              href="https://discord.gg/bTMU9EYFdY"
             >
-              <p>Contact Us</p>
+              <p>Join Our Discord!</p>
             </Link>
           </div>
           <div className="sm:hidden flex items-center space-x-2 px-10">
             <button
-              className="text-white hover:text-gray-300 focus:outline-none"
+              className="text-black hover:text-gray-300 focus:outline-none"
               onClick={toggleMobileMenu}
             >
               Menu
@@ -82,17 +82,17 @@ const Nav = () => {
           </div>
         </div>
         <div className={mobileMenuClasses}>
-          <Link href="/" className="block p-2 hover:text-gray-300">
+          <Link href="/" className="block p-2 text-white hover:text-gray-300">
             Home
           </Link>
-          <Link href="/about" className="block p-2 hover:text-gray-300">
+          <Link href="/about" className="block p-2 text-white hover:text-gray-300">
             About
           </Link>
-          <Link href="/people" className="block p-2 hover:text-gray-300">
+          <Link href="/people" className="block p-2 text-white hover:text-gray-300">
             Clients
           </Link>
-          <Link href="/contact" className="block p-2 hover:text-gray-300">
-            Contact Us
+          <Link href="/https://discord.gg/bTMU9EYFdY" className="block p-2 text-white hover:text-gray-300">
+            Discord
           </Link>
         </div>
       </div>

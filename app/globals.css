@@ -50,19 +50,6 @@ a {
 }
 
 
-section {
-  display: grid;
-  box-sizing: border-box;
-  place-items: center;
-  height: 100vh;
-  margin: 0 10rem;
-  font-size: 32px;
-  font-weight: bold;
-  min-height: fit-content;
-  max-height: fit-content;
-}
-
-
 @media (min-width: 400px) {
   .background-gradient::before {
     background: radial-gradient(
