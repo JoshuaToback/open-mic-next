@@ -1,27 +1,27 @@
 import React from 'react';
+import { FaDiscord, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white p-4">
+    <footer className="bg-gray-800 h-full text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div>
-          <p className="text-lg font-semibold">Connect with us:</p>
-          <div className="flex mt-2">
+          <div className="flex justify-center">
             <a
-              href="https://discord.com/your-discord-link"
+              href="https://discord.gg/2YtK56zNbn"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500 hover:text-blue-600 mr-4"
+              className="text-blue-500 hover:text-blue-600 mx-4"
             >
-              Discord
+              <FaDiscord className="text-3xl" />
             </a>
             <a
-              href="https://twitter.com/your-twitter-link"
+              href="https://twitter.com/castingopenmic"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500 hover:text-blue-600"
+              className="text-blue-500 hover:text-blue-600 mx-4"
             >
-              Twitter
+              <FaTwitter className="text-3xl" />
             </a>
           </div>
         </div>

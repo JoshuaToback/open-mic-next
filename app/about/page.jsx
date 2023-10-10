@@ -1,5 +1,7 @@
+'use client'
 import React from "react";
 
+import PageTransition from "@/components/PageTransition";
 import Josh from "@/images/headshot.png";
 import Andrea from "@/images/andreareel.png";
 import Violet from "@/images/violet.png";
@@ -54,26 +56,27 @@ const About = () => {
   ];
 
   return (
-    <div className="container mx-auto py-8">
-      <h1 className="text-3xl font-semibold mb-6">About Us</h1>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {teamMembers.map((member, index) => (
-          <div key={index} className="bg-slate-300 rounded-lg shadow-md p-6">
-            <Image
-              src={member.image} 
-              alt={member.name}
-              width={128} 
-              height={128} 
-              className="w-32 h-32 rounded-full mx-auto mb-4"
-            />
-            <h2 className="text-2xl font-semibold">{member.name}</h2>
-            <h3 className="text-xl text-gray-600 mb-2">{member.title}</h3>
-            <p className="text-lg font-base text-gray-700">{member.bio}</p>
-          </div>
-        ))}
+    <PageTransition>
+      <div className="container mx-auto py-8">
+        <h1 className="text-3xl font-semibold mb-6">About Us</h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {teamMembers.map((member, index) => (
+            <div key={index} className="bg-slate-300 rounded-lg shadow-md p-6">
+              <Image
+                src={member.image}
+                alt={member.name}
+                width={128}
+                height={128}
+                className="w-32 h-32 rounded-full mx-auto mb-4"
+              />
+              <h2 className="text-2xl font-semibold">{member.name}</h2>
+              <h3 className="text-xl text-gray-600 mb-2">{member.title}</h3>
+              <p className="text-lg font-base text-gray-700">{member.bio}</p>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </PageTransition>
   );
 };
 
