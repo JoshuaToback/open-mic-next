@@ -30,22 +30,24 @@ export default function Home() {
             className="bg-hero-image bg-cover bg-center h-screen w-screen flex flex-col justify-center items-center relative"
           >
             <div className="absolute inset-0 bg-black opacity-50"></div>
-            <h1 className="text-7xl font-semibold leading-tight text-white z-10 relative">
+            <h1 className="text-white bg-clip-text text-7xl font-light leading-tight  z-10 relative">
               Open Mic Studios
             </h1>
-            <p className="text-4xl text-white z-10 relative text-shadow">
-              Putting You on Center Stage
+            <p className="text-4xl text-white font-semilight text-center z-10 relative text-shadow">
+              Putting You On
+              <br />
+               Center Stage
             </p>
 
             {/* New Buttons */}
             <div className="mt-6 z-10 relative flex space-x-4">
               <ScrollLink to="who" spy={true} smooth={true} duration={500}>
-                <button className="bg-slate-400 hover:bg-slate-900 text-white font-light py-2 px-4 mx-2 rounded">
+                <button className="bg-slate-500 hover:bg-slate-900 text-white text-3xl font-light py-2 px-4 mx-2 rounded">
                   About Us
                 </button>
               </ScrollLink>
               <ScrollLink to="contact" spy={true} smooth={true} duration={500}>
-                <button className="bg-slate-400 hover:bg-slate-900 text-white font-light py-2 px-4 mx-2 rounded">
+                <button className="bg-slate-500 hover:bg-slate-900 text-white text-3xl font-light py-2 px-4 mx-2 rounded">
                   Contact
                 </button>
               </ScrollLink>
