@@ -54,7 +54,7 @@ const ContactSection = () => {
           <p className="text-gray-600 mb-4">Connect with us on:</p>
           <div className="flex justify-center">
             <a
-              href="https://discord.gg/2YtK56zNbn"
+              href="https://discord.gg/AGZushveg5"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500 hover:text-blue-600 mx-4"

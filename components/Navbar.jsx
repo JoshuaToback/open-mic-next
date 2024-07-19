@@ -91,7 +91,7 @@ const Nav = () => {
           <Link href="/people" className="block p-2 text-white hover:text-gray-300">
             Clients
           </Link>
-          <Link href="/https://discord.gg/bTMU9EYFdY" className="block p-2 text-white hover:text-gray-300">
+          <Link href="https://discord.gg/AGZushveg5" className="block p-2 text-white hover:text-gray-300">
             Discord
           </Link>
         </div>
