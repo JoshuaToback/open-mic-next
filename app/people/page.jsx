@@ -6,6 +6,7 @@ import ClientCard from "@/components/ClientCard";
 
 import DON from "../../images/DoNInviteNoText.png";
 import Eden from "../../images/Eden_Logo_Concept_5.png";
+import Bitzy from "../../images/Logo_solo.png";
 
 const clients = [
   {
@@ -15,6 +16,8 @@ const clients = [
   },
 
   { name: "Eden", src: Eden, websiteUrl: "https://twitter.com/edenaudiodrama" },
+
+  { name : "Bitzybones", src: Bitzy, websiteUrl: "https://bitzybones.com/"}
 ];
 
 const ClientsPage = () => {
